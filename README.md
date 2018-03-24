@@ -37,7 +37,14 @@ public interface PushSupport {
 ```
 
 ## 二，Module使用
-
+### 导入jar
+```xml
+<dependency>
+  <groupId>com.github.catalpaflat</groupId>
+  <artifactId>module-push</artifactId>
+  <version>1.0.0</version>
+</dependency>  
+```  
 ### 1. 配置密钥 secret 和 app_key
 ```yml
 catalpaflat:
