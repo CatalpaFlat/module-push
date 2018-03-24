@@ -34,6 +34,8 @@ public class JGNettyHttpClientRealize extends JGPushSupport {
                     result[0] = responseWrapper.responseContent;
                 }
             });
+            // 请求结束后，调用 NettyHttpClient 中的 close 方法，否则进程不会退出。
+            nettyHttpClient.close();
         } catch (URISyntaxException e) {
             throw new PushException(e.getMessage());
         }
@@ -52,6 +54,8 @@ public class JGNettyHttpClientRealize extends JGPushSupport {
                     result[0] = responseWrapper.responseContent;
                 }
             });
+            // 请求结束后，调用 NettyHttpClient 中的 close 方法，否则进程不会退出。
+            nettyHttpClient.close();
         } catch (URISyntaxException e) {
             throw new PushException(e.getMessage());
         }
@@ -70,6 +74,8 @@ public class JGNettyHttpClientRealize extends JGPushSupport {
                     result[0] = responseWrapper.responseContent;
                 }
             });
+            // 请求结束后，调用 NettyHttpClient 中的 close 方法，否则进程不会退出。
+            nettyHttpClient.close();
         } catch (URISyntaxException e) {
             throw new PushException(e.getMessage());
         }
@@ -88,6 +94,8 @@ public class JGNettyHttpClientRealize extends JGPushSupport {
                     result[0] = responseWrapper.responseContent;
                 }
             });
+            // 请求结束后，调用 NettyHttpClient 中的 close 方法，否则进程不会退出。
+            nettyHttpClient.close();
         } catch (URISyntaxException e) {
             throw new PushException(e.getMessage());
         }
@@ -106,6 +114,8 @@ public class JGNettyHttpClientRealize extends JGPushSupport {
                     result[0] = responseWrapper.responseContent;
                 }
             });
+            // 请求结束后，调用 NettyHttpClient 中的 close 方法，否则进程不会退出。
+            nettyHttpClient.close();
         } catch (URISyntaxException e) {
             throw new PushException(e.getMessage());
         }
@@ -125,6 +135,8 @@ public class JGNettyHttpClientRealize extends JGPushSupport {
                     result[0] = responseWrapper.responseContent;
                 }
             });
+            // 请求结束后，调用 NettyHttpClient 中的 close 方法，否则进程不会退出。
+            nettyHttpClient.close();
         } catch (URISyntaxException e) {
             throw new PushException(e.getMessage());
         }
